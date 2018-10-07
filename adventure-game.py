@@ -1,3 +1,5 @@
+#test comment
+
 class Player:
 
 	def __init__(self, currentRoom):
@@ -61,7 +63,7 @@ class Treasure:
 		self.name = name
 		self.description = description
 		self.points = points
-	
+
 	### getter and setter for name
 	def getName(self):
 		return self.name
@@ -103,7 +105,7 @@ class Game:
 
 		player = Player(startRoom)
 		self.player = player
-	
+
 	### getter and setter for start room
 	def getStartRoom(self):
 		return self.startRoom
